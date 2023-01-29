@@ -51,7 +51,7 @@ header{
     position: absolute;
     left:calc(50% - 11rem);
 
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     border-radius: 12rem 12rem 0 0;
     /* overflow: hidden; */
 }
