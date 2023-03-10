@@ -14,27 +14,27 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>Mobile-Optimised Website</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>Event Booking System</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>Document Management System</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>Web Application / Business Software</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>Blog / News Management</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>Social Media Integration </p>
             </li>
           </ul>
         </article>
@@ -46,27 +46,27 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>COMING - SOON</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>COMING - SOON</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>COMING - SOON</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>COMING - SOON</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>COMING - SOON</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>COMING - SOON</p>
             </li>
           </ul>
         </article>
@@ -78,23 +78,27 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>COMING - SOON</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>COMING - SOON</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>COMING - SOON</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>COMING - SOON</p>
             </li>
             <li>
               <BsCheckLg className='service_list_icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>COMING - SOON</p>
+            </li>
+            <li>
+              <BsCheckLg className='service_list_icon'/>
+              <p>COMING - SOON</p>
             </li>
           </ul>
         </article>

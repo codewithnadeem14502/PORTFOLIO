@@ -1,55 +1,55 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assests/portfolio1.jpg'
-import IMG2 from '../../assests/portfolio2.jpg'
-import IMG3 from '../../assests/portfolio3.jpg'
-import IMG4 from '../../assests/portfolio4.jpg'
+import IMG1 from '../../assests/portfolio1.png'
+import IMG2 from '../../assests/portfolio2.png'
+import IMG3 from '../../assests/portfolio3.png'
+import IMG4 from '../../assests/portfolio4.png'
 import IMG5 from '../../assests/portfolio5.png'
-import IMG6 from '../../assests/portfolio6.jpg'
+import IMG6 from '../../assests/portfolio6.png'
 
 const data = [
 
   {
     id:1,
     image:IMG1,
-    title: 'title of the project',
-    github:'https://github.com',
-    demo:'https://facebook.com'
+    title: 'Pixagenerator🖼️',
+    github:'https://github.com/codewithnadeem14502/pixgenerater',
+    demo:'https://pixgenerator.netlify.app/'
   },
   {
     id:2,
     image:IMG2,
-    title: 'title of the project',
-    github:'https://github.com',
-    demo:'https://facebook.com'
+    title: 'NewsExpress📰',
+    github:'https://github.com/codewithnadeem14502/NewsExpress',
+    demo:'https://newsexpresss.netlify.app/'
   },
   {
     id:3,
     image:IMG3,
-    title: 'title of the project',
-    github:'https://github.com',
-    demo:'https://facebook.com'
+    title: 'recipespoints😋',
+    github:'https://github.com/codewithnadeem14502/Recipespoints',
+    demo:'https://recipespoints.netlify.app/'
   },
   {
     id:4,
     image:IMG4,
-    title: 'title of the project',
-    github:'https://github.com',
-    demo:'https://facebook.com'
+    title: 'Netflix Clone 🍿',
+    github:'https://github.com/codewithnadeem14502/Netflix--Clone',
+    demo:'https://codewithnadeem14502.github.io/Netflix--Clone/'
   },
   {
     id:5,
     image:IMG5,
-    title: 'title of the project',
-    github:'https://github.com',
-    demo:'https://facebook.com'
+    title: 'Rock-paper-scissor Game 🕹️',
+    github:'https://github.com/codewithnadeem14502/ROCK-PAPER-SCISSOR',
+    demo:'https://codewithnadeem14502.github.io/ROCK-PAPER-SCISSOR/'
   },
   {
     id:6,
     image:IMG6,
-    title: 'title of the project',
-    github:'https://github.com',
-    demo:'https://dribble.com'
+    title: 'Weather-App🌄',
+    github:'https://github.com/codewithnadeem14502/-Weather-App-',
+    demo:'https://codewithnadeem14502.github.io/-Weather-App-/'
   }
 ]
 
