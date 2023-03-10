@@ -80,90 +80,41 @@ html {
   }
   
   /* Styles for small screens (up to 480px) */
-  @media (max-width: 480px) {
-    .header {
-      height: auto;
-      padding-top: 1.5rem;
+  @media screen and (max-width : 1024px)  {
+    header{
+        height: 98vh;
+        /* background-color: rgb(16, 221, 204); */
     }
-    
-    .header_container {
-      padding-bottom: 2rem;
+   
+  }
+  @media screen and (width <= 768px)  {
+    header{
+        height: 115vh;
+        /* background-color: pink; */
     }
-    
-    .me {
-      width: 90%;
-      height: auto;
-      left: 5%;
-      margin-top: 3rem;
-      border-radius: 50%;
-    }
-    
-    .me img {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-    }
-    
-    .scroll_down {
+    .header_socials,.scroll_down{
       display: none;
     }
+    
   }
-  
-  /* Styles for medium screens (481px to 768px) */
-  @media (min-width: 481px) and (max-width: 768px) {
-    .header {
-      height: auto;
-      padding-top: 2rem;
+  @media screen and (width <= 465px)  {
+      header{
+          height: 130vh;
+          /* background-color: gold; */
+      }
+     
+    }
+    @media screen and (width <= 376px)  {
+        header{
+            height: 150vh;
+            /* background-color: rgb(242, 0, 255); */
+        }
+        
+      }
+@media screen and (max-width : 320px)  {
+    header{
+        height: 150vh;
+        /* background-color: red; */
     }
     
-    .header_container {
-      padding-bottom: 3rem;
-    }
-    
-    .me {
-      width: 70%;
-      height: auto;
-      left: 15%;
-      margin-top: 4rem;
-      border-radius: 50%;
-    }
-    
-    .me img {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-    }
   }
-  
-  /* Styles for large screens (769px and up) */
-  @media (min-width: 769px) {
-    .header {
-      height: 100vh;
-      padding-top: 3rem;
-    }
-    
-    .header_container {
-      padding-bottom: 0;
-    }
-    
-    .me {
-      width: 22rem;
-      height: 40rem;
-      left: calc(50% - 11rem);
-      margin-top: 5rem;
-      border-radius: 12rem 12rem 0 0;
-    }
-    
-    .me img {
-      width: 75%;
-      height: 50%;
-      margin-top: 2rem;
-      margin-left: 2.5rem;
-      margin-right: 2.5rem;
-    }
-    
-    .scroll_down {
-      display: block;
-    }
-  }
-  
