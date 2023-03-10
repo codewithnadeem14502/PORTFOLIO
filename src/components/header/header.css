@@ -74,69 +74,96 @@ header{
     font-size: 0.9rem;
     
 }
-
-/* === media queries (meduim-Device )== */
-@media only screen and (max-width: 1024px) {
+/* Set default font size for mobile devices */
+html {
+    font-size: 16px;
+  }
   
+  /* Styles for small screens (up to 480px) */
+  @media (max-width: 480px) {
+    .header {
+      height: auto;
+      padding-top: 1.5rem;
+    }
     
-
-      header{
-        height: 108vh;
-      }
-     
+    .header_container {
+      padding-bottom: 2rem;
+    }
     
-} 
-@media  (max-width <= 600px) {
     .me {
-     
-        width: 180px;
-        height: 200px;
-        margin-top: 3rem;
-        margin-left: 97px;
-        margin-right: auto;
-        border-radius: 5px solid rgb(176, 10, 10);
-      }
-      .me img {
-        width: 10px;
-        height:12px;
-        margin-left: 35px;
-        margin-right: 0px;
-        margin-top: 12px;
-        
-      }
-}
-    @media only screen and (max-width: 600px) {
+      width: 90%;
+      height: auto;
+      left: 5%;
+      margin-top: 3rem;
+      border-radius: 50%;
+    }
+    
+    .me img {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+    
+    .scroll_down {
+      display: none;
+    }
+  }
   
-        /* .me {
-            width: 180px;
-            height: 200px;
-            margin-top: 3rem;
-            margin-left: 97px;
-            margin-right: auto;
-            border-radius: 5px solid rgb(176, 10, 10);
-
-            margin-bottom: 0px;
-          }
-          .me img {
-            width: 100px;
-            height:120px;
-            margin-left: 35px;
-            margin-right: 0px;
-            margin-top: 12px;
-            
-          } */
-              .h1{
-                font-size: 1.5rem;
-                font-weight: 700;
-              }
-        .header_socials,.scroll_down{
-            display: none;
-        }
-    .header_container{
-      height: 50vh;
-      justify-content: center;
+  /* Styles for medium screens (481px to 768px) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .header {
+      height: auto;
+      padding-top: 2rem;
     }
-    header{
-       padding-top: 0;
-      }
+    
+    .header_container {
+      padding-bottom: 3rem;
     }
+    
+    .me {
+      width: 70%;
+      height: auto;
+      left: 15%;
+      margin-top: 4rem;
+      border-radius: 50%;
+    }
+    
+    .me img {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+  }
+  
+  /* Styles for large screens (769px and up) */
+  @media (min-width: 769px) {
+    .header {
+      height: 100vh;
+      padding-top: 3rem;
+    }
+    
+    .header_container {
+      padding-bottom: 0;
+    }
+    
+    .me {
+      width: 22rem;
+      height: 40rem;
+      left: calc(50% - 11rem);
+      margin-top: 5rem;
+      border-radius: 12rem 12rem 0 0;
+    }
+    
+    .me img {
+      width: 75%;
+      height: 50%;
+      margin-top: 2rem;
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+    }
+    
+    .scroll_down {
+      display: block;
+    }
+  }
+  
