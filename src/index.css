@@ -111,24 +111,26 @@ img{
 
 /* === media queries (MED-Device )== */
  @media screen and(max-width:1024px) {
-    .container{
+
+     .container{
+
         width: var(--container-width-md);
         background: red;
     }
     section{
        margin-top: 6rem;
-    }
+    } 
 
 } 
 
 /* === media queries (SMALL-Device )== */
  @media screen and(max-width:600px) {
-    .container{
+.container{
+
         width: var(--container-width-sm);
         
     }
     section > h2{
        margin-top: 2rem;
     }
-    
-} 
+
