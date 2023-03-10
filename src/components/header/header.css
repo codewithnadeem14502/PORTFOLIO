@@ -74,35 +74,47 @@ header{
     font-size: 0.9rem;
     
 }
-
-/* === media queries (meduim-Device )== */
-@media only screen and (max-width: 1024px) {
+/* Set default font size for mobile devices */
+html {
+    font-size: 16px;
+  }
   
+  /* Styles for small screens (up to 480px) */
+  @media screen and (max-width : 1024px)  {
+    header{
+        height: 98vh;
+        /* background-color: rgb(16, 221, 204); */
+    }
+   
+  }
+  @media screen and (width <= 768px)  {
+    header{
+        height: 115vh;
+        /* background-color: pink; */
+    }
+    .header_socials,.scroll_down{
+      display: none;
+    }
     
-
+  }
+  @media screen and (width <= 465px)  {
       header{
-        height: 68vh;
+          height: 130vh;
+          /* background-color: gold; */
       }
      
-    
-} 
-    @media only screen and (max-width: 600px) {
-  
-        .me{
-            width: 100%;
-         
-           border: 1px solid black;
-                 }
-              .h1{
-                font-size: 1.5rem;
-                font-weight: 700;
-              }
-        .header_socials,.scroll_down{
-            display: none;
+    }
+    @media screen and (width <= 376px)  {
+        header{
+            height: 150vh;
+            /* background-color: rgb(242, 0, 255); */
         }
-    .header_container{
-      height: 50vh;
-      justify-content: center;
+        
+      }
+@media screen and (max-width : 320px)  {
+    header{
+        height: 150vh;
+        /* background-color: red; */
     }
-
-    }
+    
+  }
