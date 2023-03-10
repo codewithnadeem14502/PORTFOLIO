@@ -81,18 +81,50 @@ header{
     
 
       header{
-        height: 68vh;
+        height: 108vh;
       }
      
     
 } 
+@media  (max-width <= 600px) {
+    .me {
+     
+        width: 180px;
+        height: 200px;
+        margin-top: 3rem;
+        margin-left: 97px;
+        margin-right: auto;
+        border-radius: 5px solid rgb(176, 10, 10);
+      }
+      .me img {
+        width: 10px;
+        height:12px;
+        margin-left: 35px;
+        margin-right: 0px;
+        margin-top: 12px;
+        
+      }
+}
     @media only screen and (max-width: 600px) {
   
-        .me{
-            width: 100%;
-         
-           border: 1px solid black;
-                 }
+        /* .me {
+            width: 180px;
+            height: 200px;
+            margin-top: 3rem;
+            margin-left: 97px;
+            margin-right: auto;
+            border-radius: 5px solid rgb(176, 10, 10);
+
+            margin-bottom: 0px;
+          }
+          .me img {
+            width: 100px;
+            height:120px;
+            margin-left: 35px;
+            margin-right: 0px;
+            margin-top: 12px;
+            
+          } */
               .h1{
                 font-size: 1.5rem;
                 font-weight: 700;
@@ -104,5 +136,7 @@ header{
       height: 50vh;
       justify-content: center;
     }
-
+    header{
+       padding-top: 0;
+      }
     }
