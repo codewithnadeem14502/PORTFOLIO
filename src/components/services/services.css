@@ -39,11 +39,11 @@
     font-size: 1rem;
     text-align: center;
 }
-.service_list{
+.service_list1, .service_list2, .service_list3 {
     padding: 2rem;
-
-}
-.service_list li{
+  }
+  
+.service_list1 li, .service_list2 li , .service_list3  li{
     display: flex;
     gap: 1rem;
     margin-bottom: 0.8rem;
@@ -70,8 +70,13 @@
 @media screen and (max-width:600px)
 {
     .services_contianer{
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
+       margin: 2px;
+       width: 20px;
       }
-     
+     .service_list2,.service_list3{
+        display: none;
+     }
+     .titlehead{
+        font-size: 20px;
+     }
 }

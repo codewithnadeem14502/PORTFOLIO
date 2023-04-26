@@ -46,10 +46,18 @@
 }
 @media screen and (max-width:600px) {
     .container.testimonals_container{
-    width: var(--container-width-sm);
+     width: var(--container-width-sm); 
+     
+     
+    }
+    .client_review{
+        width: var(--container-width-sm);
+        margin-left: 10px;
+        margin-right:3px;
 
+     padding-left: 0px;
+     padding-right: 0px;
+ 
 }
-.client_review{
-    width: var(--container-width-sm);
-}
+
 }

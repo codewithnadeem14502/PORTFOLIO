@@ -57,7 +57,29 @@
     }
     .experience_container > div{
         padding: 2rem 1rem;
-        width: 100%;
+        width: 280px;
+       
     }
-    
+    .exptitle{
+        margin-left: 55px;
+        font-size: 25px;
+    }
+    .experience_content{
+       font-size: 15px;
+
+     margin-right: 0;
+     padding-right: 0;
+    }
+    .experience_details-icons{
+        padding: 0;
+        margin: 0;
+  
+
+    }
+    .experience_details{
+        /* background-color: red; */
+        margin-left: 5px;
+        margin-right: 0;
+        padding-right: 0;
+    }
 }

@@ -14,7 +14,7 @@ const Services = () => {
           <div className='serivesContaineItem'>
             {/* list one */}
             <div>
-            <ul className='service_list'>
+            <ul className='service_list1'>
             <li>
               <BsCheckLg className='service_list_icon'/>
               <p>Website design and development</p>
@@ -43,7 +43,7 @@ const Services = () => {
             </div>
             {/* list two  */}
             <div>
-            <ul className='service_list'>
+            <ul className='service_list2'>
             <li>
               <BsCheckLg className='service_list_icon'/>
               <p>Website analytics and reporting</p>
@@ -72,7 +72,7 @@ const Services = () => {
             </div>
             {/* list three  */}
             <div>
-            <ul className='service_list'>
+            <ul className='service_list3'>
             <li>
               <BsCheckLg className='service_list_icon'/>
               <p>Mobile-Optimised Website</p>

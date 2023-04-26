@@ -15,8 +15,8 @@ const Contact = () => {
   };
   return (
     <section id='contact'>
-       <h5> Get In Touch</h5>
-       <h2>Contact Me</h2>
+       <h5 className='titilecontact1'> Get In Touch</h5>
+       <h2 className='titilecontact2'>Contact Me</h2>
 
        <div className="container contact_container">
         <div className="contact_options">
@@ -24,7 +24,7 @@ const Contact = () => {
               <MdOutlineEmail className='contact_option_icon'/>
               <h4>Email</h4>
               <h5>codewithnadee@gmail.com</h5>
-              <a href="mailto:codewithnadeem@gmail.com" target="_blank">Send a message</a>
+              <a href="mailto:codewithnadeem@gmail.com" target="_blank">Send a Message</a>
              </article>
              <article className="contact_option">
               <BsWhatsapp className='contact_option_icon'/>

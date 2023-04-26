@@ -21,7 +21,7 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar : AVTR1,
-     name: 'Tina Snow',
+     name: 'Olivia',
       review: '""As the CEO of a major corporation, I have had the pleasure of working with many talented frontend developers over the years. However, [your name] stands out as one of the most impressive developers I have ever had the pleasure of working with. Her expertise in ReactJS and frontend development is second to none, and her ability to deliver high-quality work on time and within budget is truly remarkable."',
   
   },
