@@ -9,9 +9,70 @@ const Services = () => {
       <div className="container services_contianer">
         <article className='service'>
           <div className="service_head">
-            <h3>Web Development</h3>
+            <h2 className='titlehead'>Web Development</h2>
           </div>
-          <ul className='service_list'>
+          <div className='serivesContaineItem'>
+            {/* list one */}
+            <div>
+            <ul className='service_list'>
+            <li>
+              <BsCheckLg className='service_list_icon'/>
+              <p>Website design and development</p>
+            </li>
+            <li>
+              <BsCheckLg className='service_list_icon'/>
+              <p>E-commerce website development</p>
+            </li>
+            <li>
+              <BsCheckLg className='service_list_icon'/>
+              <p>Content management system (CMS) development</p>
+            </li>
+            <li>
+              <BsCheckLg className='service_list_icon'/>
+              <p>Web application development</p>
+            </li>
+            <li>
+              <BsCheckLg className='service_list_icon'/>
+              <p>Search engine optimization (SEO)</p>
+            </li>
+            <li>
+              <BsCheckLg className='service_list_icon'/>
+              <p>Web hosting and domain registration </p>
+            </li>
+          </ul>
+            </div>
+            {/* list two  */}
+            <div>
+            <ul className='service_list'>
+            <li>
+              <BsCheckLg className='service_list_icon'/>
+              <p>Website analytics and reporting</p>
+            </li>
+            <li>
+              <BsCheckLg className='service_list_icon'/>
+              <p>Website redesign</p>
+            </li>
+            <li>
+              <BsCheckLg className='service_list_icon'/>
+              <p>Social media integration</p>
+            </li>
+            <li>
+              <BsCheckLg className='service_list_icon'/>
+              <p>User experience (UX) design</p>
+            </li>
+            <li>
+              <BsCheckLg className='service_list_icon'/>
+              <p>Website speed optimization</p>
+            </li>
+            <li>
+              <BsCheckLg className='service_list_icon'/>
+              <p>Mobile application development </p>
+            </li>
+          </ul>
+            </div>
+            {/* list three  */}
+            <div>
+            <ul className='service_list'>
             <li>
               <BsCheckLg className='service_list_icon'/>
               <p>Mobile-Optimised Website</p>
@@ -37,9 +98,12 @@ const Services = () => {
               <p>Social Media Integration </p>
             </li>
           </ul>
+            </div>
+          </div>
+         
         </article>
         {/* end card 1  */}
-        <article className='service'>
+        {/* <article className='service'>
           <div className="service_head">
             <h3>App Development</h3>
           </div>
@@ -69,9 +133,9 @@ const Services = () => {
               <p>COMING - SOON</p>
             </li>
           </ul>
-        </article>
+        </article> */}
 {/* end of card 2 */}
-        <article className='service'>
+        {/* <article className='service'>
           <div className="service_head">
             <h3>UI/UX Design</h3>
           </div>
@@ -101,7 +165,7 @@ const Services = () => {
               <p>COMING - SOON</p>
             </li>
           </ul>
-        </article>
+        </article> */}
       </div>
     </section>
   )

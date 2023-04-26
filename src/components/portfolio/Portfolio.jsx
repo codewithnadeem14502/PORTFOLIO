@@ -12,44 +12,44 @@ const data = [
   {
     id:1,
     image:IMG1,
-    title: 'Pixagenerator🖼️',
-    github:'https://github.com/codewithnadeem14502/pixgenerater',
-    demo:'https://pixgenerator.netlify.app/'
+    title: 'BeFoodie😋',
+    github:'https://github.com/codewithnadeem14502/BeFoodie',
+    demo:'https://befoodiehub.netlify.app/'
   },
   {
     id:2,
     image:IMG2,
+     title: 'Pixagenerator🖼️',
+     github:'https://github.com/codewithnadeem14502/pixgenerater',
+     demo:'https://pixgenerator.netlify.app/'
+  },
+  {
+    id:3,
+    image:IMG3,
     title: 'NewsExpress📰',
     github:'https://github.com/codewithnadeem14502/NewsExpress',
     demo:'https://newsexpresss.netlify.app/'
   },
   {
-    id:3,
-    image:IMG3,
-    title: 'recipespoints😋',
-    github:'https://github.com/codewithnadeem14502/Recipespoints',
-    demo:'https://recipespoints.netlify.app/'
-  },
-  {
     id:4,
     image:IMG4,
+    title: 'ShopperLand',
+    github:'https://github.com/codewithnadeem14502/ShoperLand',
+    demo:'https://shoperland.netlify.app/'
+  },
+  {
+    id:5,
+    image:IMG5,
     title: 'Netflix Clone 🍿',
     github:'https://github.com/codewithnadeem14502/Netflix--Clone',
     demo:'https://codewithnadeem14502.github.io/Netflix--Clone/'
   },
   {
-    id:5,
-    image:IMG5,
-    title: 'Rock-paper-scissor Game 🕹️',
-    github:'https://github.com/codewithnadeem14502/ROCK-PAPER-SCISSOR',
-    demo:'https://codewithnadeem14502.github.io/ROCK-PAPER-SCISSOR/'
-  },
-  {
     id:6,
     image:IMG6,
-    title: 'Weather-App🌄',
-    github:'https://github.com/codewithnadeem14502/-Weather-App-',
-    demo:'https://codewithnadeem14502.github.io/-Weather-App-/'
+    title: 'Nike-Store👟',
+    github:'https://github.com/codewithnadeem14502/Shoes.com',
+    demo:'https://codewithnadeem14502.github.io/Shoes.com/'
   }
 ]
 

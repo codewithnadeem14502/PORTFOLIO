@@ -29,7 +29,7 @@ header{
     position:absolute;
     left:0;
     bottom: 3rem;
-   
+   font-size: x-large;
 }
 
 .header_socials::after{
@@ -71,7 +71,9 @@ header{
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    /* font-size: 0.9rem;
+     */
+     font-size: x-large;
     
 }
 /* Set default font size for mobile devices */
@@ -117,3 +119,4 @@ html {
         /* background-color: red; */
     }
     
+}

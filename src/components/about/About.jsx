@@ -31,15 +31,13 @@ const About = () => {
         <article className="about_card">
           <VscFolderLibrary className='about_icon'/>
      <h5> Projects</h5>
-     <small>15+ prjects</small>
+     <small>20+ prjects</small>
         </article>
       </div>
-      <p>Hey Myself Mohd Nadeem I'm Pursuing a BTech in CSE.
- I'm a Fresher with decent technical experience.
- Looking for more challenging work with learning opportunities.
- Competitive programmer and Open source enthusiasm.
-Interested in problem solving</p>
-      <a href='#contact' className='btn btn-primary '> Let's Talk </a>
+      <p>"Hello, my name is Mohd Nadeem and I am a prefinal year B.Tech CSE student with a passion for web development. I have honed my skills in this area through various projects and am confident in my ability to create dynamic and user-friendly web applications. Additionally, I have experience in contributing to open-source projects, which has allowed me to further develop my problem-solving skills and stay up-to-date with the latest technologies.
+
+As a student, I am always seeking opportunities to learn and grow both personally and professionally. I am eager to apply my expertise and work collaboratively with a team of like-minded individuals to develop innovative solutions that can make a difference."</p>
+      <a href='#contact' className='btn btn-primary '> Let's Connect </a>
    </div>
 
       </div>

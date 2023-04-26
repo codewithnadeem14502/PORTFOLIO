@@ -73,8 +73,8 @@ const Experience = () => {
             <article className='experience_details'>
         <BsFillPatchCheckFill className='experience_details-icons'/>
       <div>
-      <h4>MYSQL</h4>
-        <small className='text-light'>Basic</small>
+      <h4>NextJs</h4>
+        <small className='text-light'>Intermediate</small>
       </div>
             </article>
 
